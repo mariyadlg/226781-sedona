@@ -14,9 +14,6 @@
             		<li>
               			<a href="#">Фото и видео</a>
             		</li>
-            		<li></li>
-            			<a href="#"><img src="img/photo.jpg" width="80" height="50" alt="Главная"></a>
-            		</li>
             		<li>
               			<a href="#">Карта штата</a>
             		</li>
@@ -24,36 +21,43 @@
               			<a href="#">Гостиницы</a>
             		</li>
           		</ul>
+          		<a href="#"><img src="img/photo.jpg" width="80" height="50" alt="Главная"></a>
         	</nav>
 		</header>
 		<main class="container">
 			<form action="" method="get">
             	<div class="infrastructure">
-					<label for="infrastructure">Инфраструктура:</label> 
-					<p><input type="checkbox" name="infrastructure1" value="i1" checked>Бассейн</p>
-                    <p><input type="checkbox" name="infrastructure2" value="i2">Парковка</p>
-                    <p><input type="checkbox" name="infrastructure3" value="i3">Wi-Fi</p>
-     			</div>
+					<fieldset>
+  						<legend>Инфраструктура:</legend>
+  						<label for="infrastructure1"><input type="checkbox" name="infrastructure1" value="i1"checked>Бассейн</label> 
+                   	 	<label for="infrastructure2"><input type="checkbox" name="infrastructure2" value="i2">Парковка</label> 
+                    	<label for="infrastructure3"><input type="checkbox" name="infrastructure3" value="i3">Wi-Fi</label> 
+                    </fieldset>
+				</div>
      			<div class="house">
-     				<label for="house">Тип жилья:</label> 
-     				<p><input type="checkbox" name="house1" value="h1" checked>Гостиница</p>
-                    <p><input type="checkbox" name="house2" value="h2" checked>Мотель</p>
-                    <p><input type="checkbox" name="house3" value="h3" checked>Апартаменты</p>
+     				<fieldset>
+     					<legend>Тип жилья:</legend>
+     					<label for="house1"><input type="checkbox" name="house1" value="h1" checked>Гостиница</label> 
+                    	<label for="house2"><input type="checkbox" name="house2" value="h2" checked>Мотель</label> 
+                    	<label for="house3"><input type="checkbox" name="house3" value="h3" checked>Апартаменты</label> 
+                    </fieldset>
 				</div>
      			<div class="cost">
-     				<label for="cost">Стоимость в сутки (р):</label> 
-     				1<input type="range" id="cost" min="0" max="3000">до 3000
+     				<fieldset>
+     					<legend>Стоимость в сутки (р):</legend>
+     					<label for="cost">Стоимость в сутки (р):</label> 
+     					1<input type="range" id="cost" min="0" max="3000">до 3000
+     					<input type="submit" value="Показать">
+     				</fieldset>
      			</div>
-     				<input type="submit" value="Показать">
             </form>
 		</main>
 		<div class="container">
 			<p><b>Найдено 3:</b></p>
 			<p>Сортировка:</p>
-			<nav class="container-navigation">
 				<ul>
           			<li>
-              			<span>по цене</span>
+              			<a href="#">по цене</a>
             		</li>
             		<li>
               			<a href="#">по типу</a>
@@ -62,7 +66,7 @@
             			<a href="#">по рейтингу</a>
             		</li>
             	</ul>
-            </nav>
+            </div>
             <div class="choice">
         		<ul>
             		<li>
@@ -74,44 +78,40 @@
         </div>
 		<section class="items">
             <article class="item">
-				<div class="product_box">
+				<div class="img">
 					<a href=""><img src="img/photo1.jpg" width="100" height="50" alt="Amara resort"></a>
-					<p><b>Amara resort & spa</b></p>
-					<span class="product_price">Гостиница от 3500 р.</span>
-					<a href="">Подробнее</a>
-					<input type="submit" value="Забронировать">
-					<p><img src="img/photo11.jpg" width="100" height="30" alt="4 Stars"></a></p>
-					<span class="rating">Рейтинг: 8,5</span>
-				</div>
-			</article>
-			<article class="item">
-				<div class="product_box">
 					<a href=""><img src="img/photo2.jpg" width="100" height="50" alt="Desert quail inn"></a>
+					<a href=""><img src="img/photo3.jpg" width="100" height="50" alt="Villas at poco diablo"></a>
+				</div>
+				<div class="content">
+					<p><b>Amara resort &amp; spa</b></p>
+					<span class="product_price">Гостиница от 3500 р.</span>
+					<a class="details"><input type="submit" value="Подробнее"></a>
+					<a class="book"><input type="submit" value="Забронировать"></a>
 					<p><b>Desert quail inn</b></p>
 					<span class="product_price">Мотель от 2000 р.</span>
-					<a href="">Подробнее</a>
-					<input type="submit" value="Забронировать">
-					<p><img src="img/photo22.jpg" width="100" height="30" alt="2 Stars"></a></p>
-					<span class="rating">Рейтинг: 8,9</span>
-				</div>
-			</article>
-			<article class="item">
-				<div class="product_box">
-					<a href=""><img src="img/photo3.jpg" width="100" height="50" alt="Villas at poco diablo"></a>
+					<a class="details"><input type="submit" value="Подробнее"></a>
+					<a class="book"><input type="submit" value="Забронировать"></a>
 					<p><b>Villas at poco diablo</b></p>
 					<span class="product_price">Апартаменты от 4000 р.</span>
-					<a href="">Подробнее</a>
-					<input type="submit" value="Забронировать">
-					<p><img src="img/photo33.jpg" width="100" height="30" alt="3 Stars"></a></p>
+					<a class="details"><input type="submit" value="Подробнее"></a>
+					<a class="book"><input type="submit" value="Забронировать"></a>
+				</div>
+				<div class="rating">
+					<img src="img/photo11.jpg" width="100" height="30" alt="4 Stars">
+					<span class="rating">Рейтинг: 8,5</span>
+					<img src="img/photo22.jpg" width="100" height="30" alt="2 Stars">
+					<span class="rating">Рейтинг: 8,9</span>
+					<img src="img/photo33.jpg" width="100" height="30" alt="3 Stars">
 					<span class="rating">Рейтинг: 9,2</span>
 				</div>
 			</article>
 		</section>
-
-  
 		<footer class="main-footer">
-			<section class="footer-social">
+			<section class="footer-hash">
             	<a href="#">#Visitsedona</a>
+            </section>
+            <section class="footer-social">
                 <a class="social-btn social-btn-tw" href="#">Twitter</a>
                 <a class="social-btn social-btn-fb" href="#">Facebook</a>
                 <a class="social-btn social-btn-yt" href="#">Youtube</a>
