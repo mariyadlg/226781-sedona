@@ -4,9 +4,199 @@ body {
 	color: rgb(0,0,0);
 	font-weight: normal;
 	font-family: "Times New Roman", Times, serif;
+	background: #000000 url("../preview/sedona-index.jpg") no-repeat 50% 3px;
+  	background-size: 1280px auto;
+  	min-width: 1280px;
+  	height: 2762px;
+  	margin: 0;
+  	padding: 0;
 }
 
-.features h1 {
+
+.main-header {
+	height: 59px;
+	width: 1280px;
+	background-color:rgba(255,150,35,.6);
+	margin: 0 auto;
+}
+
+.index-logo {
+	height: 75px;
+	width: 138px;
+	background-color:rgba(255,180,175,.9);
+	margin-right: 573px;
+	float:right;
+}
+
+.main-navigation {
+	height: 59px;
+  	width: 1200px;
+  	margin: 0 auto;
+ 	background-color:rgba(255,96,226,.5);
+}
+
+.container {
+	height: 508px;
+	width: 1280px;
+  	margin: 0 auto;
+ 	background-color:rgba(222,1,22,.2);
+}
+
+.container-wrap {
+	height: 508px;
+	width: 1200px;
+  	margin: 0 auto;
+ 	background-color:rgba(222,1,22,.7);
+
+}
+
+.advantages {
+	height: 1314px;
+	width: 1280px;
+  	margin: 0 auto;
+ 	background-color:rgba(197,232,175,.7);
+
+}
+
+.features {
+	height: 1314px;
+	width: 1200px;
+  	margin: 0 auto;
+ 	background-color:rgba(240,194,233,.7);
+}
+
+.features div:nth-child(1) {
+	height: 216px;
+	width: 1200px;
+  	margin: 0 auto;
+ 	background-color:rgba(133,33,175,.2);
+ 	text-align: center;
+}
+
+.features h1:nth-child(1) {
+	margin: auto;
+	padding-top: 60px;
+	padding-bottom: 20px;
+	width: 550px;
+	height: 50px;
+	border: 1px solid black;
+
+}
+
+.features div:nth-child(2) {
+	width: 1200px;
+	height: 253px;
+	background-color:rgba(11,111,33,.2);
+	display: inline-block;
+
+}
+.features div:nth-child(2) img {
+	float: right;
+}
+
+.features div:nth-child(2) b:nth-child(1) {
+	
+}
+
+.features div:nth-child(2) p:nth-child(2) {
+	margin-top: 90px;
+	padding-left: 180px;
+}
+
+.features div:nth-child(2) p:nth-child(3) {
+	margin: 10px;
+	padding-top: -15px;
+	padding-left: 23px;
+}
+
+.features div:nth-child(3) {
+	height: 330px;
+	width: 402px;
+	background-color:rgba(11,194,33,.2);
+	margin: 0 auto;
+	float: left;
+}
+
+.features div:nth-child(4) {
+	height: 330px;
+	width: 402px;
+	background-color:rgba(242,194,11,.2);
+	margin: 0 auto;
+	float: right;
+}
+
+.features div:nth-child(5) {
+	height: 330px;
+	width: 402px;
+	background-color:rgba(242,666,11,.2);
+	margin: 0 auto;
+}
+
+.features div:nth-child(5):after {
+	content: "";
+	clear: both;
+}
+
+.features div:nth-child(6) {
+	padding: 3px;
+	width: 1200px;
+	height: 253px;
+	background-color:rgba(11,111,33,.2);
+}
+
+.features div:nth-child(6) img {
+	float: left;
+}
+
+.features div:nth-child(7)  {
+	height: 330px;
+	width: 402px;
+	background-color:rgba(11,194,33,.2);
+	margin: 0 auto;
+}
+
+.features div:nth-child(8)  {
+	height: 330px;
+	width: 402px;
+	background-color:rgba(112,194,23,.2);
+	margin: 0 auto;
+}
+
+
+.features div:nth-child(9)  {
+	height: 330px;
+	width: 402px;
+	background-color:rgba(111,195,33,.2);
+	margin: 0 auto;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*.features h1 {
 	font-size: 21px;
 	line-height: 40px;
 	color: rgb(0,0,0);
@@ -20,4 +210,5 @@ body {
 	color: rgb(0,0,0);
 	font-weight: bold;
 	font-family: "Times New Roman", Times, serif;
-}
+}*/
+
