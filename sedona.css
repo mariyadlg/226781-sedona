@@ -1,0 +1,852 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans:400,700');
+
+* {
+	font-family: 'PT Sans', sans-serif;
+}
+
+body {
+	color: rgb(0,0,0);
+	background: url(preview/sedona-hotels.jpg) no-repeat 50%;
+  	padding: 0;
+  	position: relative;
+}
+
+.w-wrapper {
+	width: 1200px;
+	margin: 0 auto;
+	border: 1px solid #ccc;
+}
+
+.index-logo {
+	height: 75px;
+	width: 138px;
+	position: absolute;
+	left: 50%;
+	margin-left: -69px;
+	z-index: 100;
+}
+
+.main-navigation {
+	height: 59px;
+  	width: 1200px;
+  	margin: 0 auto;
+ 	background-color: rgb(255,255,255);
+}
+
+.main-navigation ul {
+  	margin: 0;
+  	padding: 0;
+	list-style: none;
+  	font-size: 0;
+}
+
+.main-navigation li {
+  	display: inline-block;
+  	height: 56px;
+  	width: 239px;
+  	text-align: center;
+  	line-height: 14px;
+}
+
+.main-navigation ul a {
+  	display: block;
+  	padding: 25px 20px;
+	color: black;
+  	text-decoration: none;
+  	font-size: 14px;
+  	text-transform:uppercase;
+  	font-weight:bold;
+}
+
+.main-navigation ul li:nth-child(3) {
+	margin-left: 244px; 
+}
+
+.container-wrap {
+	height: 508px;
+	width: 1200px;
+  	margin: 0 auto;
+ 	text-align:center;
+ 	position: relative;
+ 	background: url(img/background.png);
+}
+
+.container-wrap img:nth-child(1) {
+ 	height: 45px;
+	width: 188px;
+	margin: 0 auto;
+	position: absolute;
+	display:block;
+	top: 77px;
+	left: 600px;
+	margin-left:-97px;
+}
+
+ .container-wrap img:nth-child(2) {
+ 	height: 30px;
+	width: 176px;
+	margin: 0 auto;
+	position: absolute;
+	display:block;
+	top: 133px;
+	left: 600px;
+	margin-left:-87px;
+}
+
+.container-wrap img:nth-child(3) {
+ 	height: 78px;
+	width: 458px;
+	margin: 0 auto;
+	position: absolute;
+	display:block;
+	top: 217px;
+	left: 470px;
+	margin-left:-97px;
+}
+
+.container-wrap img:nth-child(4) {
+ 	height: 80px;
+	width: 296px;
+	margin: 0 auto;
+	position: absolute;
+	display:block;
+	top: 348px;
+	left: 550px;
+	margin-left:-97px;
+}
+
+.shape {
+	height: 57px;
+	width: 1200px;
+ 	position: absolute;
+ 	bottom:0; 
+ 	background: url(img/shape.png);
+ }
+ 
+ .features {
+	height: 1314px;
+	width: 1200px;
+  	margin: 0 auto;
+  	background:rgb(238,238,238);
+}
+
+.features-content {
+	height: 216px;
+	width: 1200px;
+  	margin: 0 auto;
+  	text-align: center;
+  	background-color:#fff; 
+}
+
+h1 {
+	margin: auto;
+	padding-top: 59px;
+	width: 440px;
+	height: 50px;
+	font-size: 21px;
+	text-transform:uppercase;
+  	font-weight:bold;
+  	color: black;
+}
+
+.features-content p {
+	margin-top: 34px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 670px;
+	height: 50px;
+	font-size: 14px;
+	text-transform:uppercase;
+	color:rgb(119,119,119);
+}
+
+.city {
+	float: right;
+	width: 800px;
+	height: 259px;
+}
+
+.city-foto {
+	float: left;
+	position: absolute;
+	width: 400px;
+	height: 211px;
+	background: url(img/Layer.png) repeat;
+	color:rgb(255,255,255);
+	text-align: center;
+	padding-top: 47px;
+}
+
+.city-foto b {
+	font-size: 21px;
+	text-transform:uppercase;
+	line-height: 6px;
+}
+
+.city-foto p:first-child {
+	font-size: 14px;
+}
+
+.city-foto p:last-child {
+	font-size: 14px;
+	text-transform:uppercase;
+}
+
+.city-foto:after {
+  content: "";
+  clear: both;
+}
+
+.house-item {
+	width:400px;
+	height:324px;
+	margin-top: 260px;
+	float: left;
+	text-align: center;
+	background-color:#fff; 
+}
+
+.house-item b {
+	font-size: 21px;
+	text-transform:uppercase;
+  	font-weight:bold;
+  	line-height: 71px;
+}
+
+.house-item p {
+	font-size: 14px;
+	text-transform:uppercase;
+	margin-top: 2px;
+	line-height: 19px;
+	color:rgb(119,119,119);
+}
+
+.house-item img {
+	margin-top: 56px;
+}
+
+.food-item {
+	width:400px;
+	height:324px;
+	float: left;
+	text-align: center;
+	background-color:#fff; 
+}
+
+.food-item b {
+	font-size: 21px;
+	text-transform:uppercase;
+  	font-weight:bold;
+  	line-height: 71px;
+}
+
+.food-item p {
+	font-size: 14px;
+	text-transform:uppercase;
+	margin-top: 2px;
+	line-height: 22px;
+	color:rgb(119,119,119);
+}
+
+.food-item img {
+	margin-top: 56px;
+}
+
+.souvenir-item {
+	width:400px;
+	height:324px;
+	float: right;
+	text-align: center;
+	background-color:#fff; 
+}
+
+.souvenir-item b {
+	font-size: 21px;
+	text-transform:uppercase;
+  	font-weight:bold;
+  	line-height: 71px;
+}
+
+.souvenir-item p {
+	font-size: 14px;
+	text-transform:uppercase;
+	margin-top: 0;
+	line-height: 17px;
+	color:rgb(119,119,119);
+}
+
+.souvenir-item img {
+	margin-top: 56px;
+}
+
+.mountain {
+	width: 800px;
+	height: 259px;
+}
+
+.mountain-foto {
+	float: right;
+	width: 400px;
+	height: 213px;
+	background: url(img/Layer.png) repeat;
+	color:rgb(255,255,255);
+	text-align: center;
+	text-align: center;
+	padding-top: 47px;
+}
+
+.mountain-foto b {
+	font-size: 21px;
+	text-transform:uppercase;
+	line-height: 6px;
+}
+
+.mountain-foto p:first-child {
+	font-size: 14px;
+}
+
+.mountain-foto p:last-child {
+	font-size: 14px;
+	text-transform:uppercase;
+}
+
+.area {
+	width: 208px;
+	height: 146px;
+	margin-top: 48px;
+	margin-left: 96px;
+	float: left;
+	text-align: center;
+}
+
+.area b {
+	font-size: 21px;
+	text-transform:uppercase;
+	line-height: 6px;
+}
+
+.area p {
+	font-size: 14px;
+	text-transform:uppercase;
+	line-height: 26px;
+	color:rgb(119,119,119);
+}
+
+.road {
+	width: 165px;
+	height: 143px;
+	margin-top: 48px;
+	margin-left: 212px;
+	float: left;
+	text-align: center;
+}
+
+.road b {
+	font-size: 21px;
+	text-transform:uppercase;
+	line-height: 6px;
+}
+
+.road p  {
+	font-size: 14px;
+	text-transform:uppercase;
+	line-height: 25px;
+	color:rgb(119,119,119);
+}
+
+.tourists {
+	width: 150px;
+	height: 146px;
+	margin-top: 43px;
+	margin-right: 123px;
+	float: right;
+	text-align: center;
+}
+
+.tourists b {
+	font-size: 21px;
+	text-transform:uppercase;
+	line-height: 6px;
+}
+
+.tourists p {
+	font-size: 14px;
+	text-transform:uppercase;
+	line-height: 30px;
+	color:rgb(119,119,119);
+}
+
+.features:after {
+  content: "";
+  clear: both;
+}
+
+.form-area {
+	width: 1200px;
+	height: 293px;
+	margin: 0 auto;
+	position: relative;
+	background-color: rgb(255,255,255);
+}
+
+.form-area form {
+	position: absolute;
+	top:100%;
+	width: 570px;
+	height:395px;
+	left: 50%;
+	margin-left: -285px;
+	background-color: rgb(255,255,255);
+}
+
+.race {
+	margin-top: 51px;
+	position: relative;
+}
+
+.race label {
+	font-size: 14px;
+	text-transform:uppercase;
+	font-weight:bold;
+	color: black;
+	margin-top: 20px;
+}
+
+.race input {
+	width: 346px;
+	height:38px;
+	background-color:rgb(242,242,242);
+	border: 0; 
+	font-size: 14px;
+	text-transform:uppercase;
+	font-weight:bold;
+	padding-left:14px; 
+}
+
+.race img {
+	position: absolute;
+    right: 70px;
+    top: 7px;
+}
+
+.exit {
+	margin-top: 30px;
+	position: relative;
+}
+
+.exit label {
+	font-size: 14px;
+	text-transform:uppercase;
+	font-weight:bold;
+	color: black;
+}
+
+.exit input {
+	width: 346px;
+	height:38px;
+	background-color:rgb(242,242,242);
+	border: 0; 
+	font-size: 14px;
+	text-transform:uppercase;
+	font-weight:bold;
+	padding-left: 14px;
+}
+
+.exit img {
+	position: absolute;
+    right: 70px;
+    top: 7px;
+}
+
+.row {
+	margin-top: 30px;
+	padding-right:25px; 
+}
+
+.row label {
+	font-size: 14px;
+	text-transform:uppercase;
+	font-weight:bold;
+	color: black;
+}
+
+.row input {
+	width: 116px;
+	height:35px;
+	background-color:rgb(242,242,242);
+	border: 0; 
+	font-size: 14px;
+	text-transform:uppercase;
+	font-weight:bold;
+	padding-left:22px; 
+}
+
+h2 {
+	margin: auto;
+	text-align: center;
+	font-size: 30px;
+	text-transform:uppercase;
+	font-weight:bold;
+	padding-top: 47px;
+	line-height: 39px;
+}
+
+.form-area p {
+	text-align: center;
+	font-size: 14px;
+	text-transform:uppercase;
+	color:rgb(119,119,119);
+	line-height: 32px;
+}
+
+
+.search-block {
+	width: 568px;
+	height: 86px;
+	position: absolute;
+ 	bottom:0;
+ 	margin-left: 314px;
+ 	font-size: 21px;
+}
+
+.search-block:after {
+  content: "";
+  clear: both;
+}
+
+footer {
+	width:1200px;
+	height:120px;
+	margin: 0 auto;
+	background-color: rgba(255,255,255,.9);
+}
+
+.footer-hash {
+	font-size: 21px;
+  	text-transform:uppercase;
+  	font-weight:bold;
+  	color: black;
+  	margin-left: 134px;
+  	margin-top: 50px;
+  	float: left;
+}
+
+.footer-hash a {
+	text-decoration: none;
+	color: black;
+}
+
+.footer-social {
+  	float: left;
+  	margin-left: 200px;
+  	margin-top: 50px;
+}
+
+.footer-social img:nth-child(1) {
+	width:17px;
+	height:15px;
+	background-color: rgb(129,179,210);
+}
+.footer-copyright {
+	float: left;
+	margin-left: 220px;
+  	margin-top: 37px;
+ }
+
+ .footer-copyright p {
+ 	float: left;
+ 	margin-right: 10px;
+ 	margin-left: 152px;
+ 	margin-top: 12px;
+ }
+
+ .footer-copyright img {
+  	margin-top: 7px;
+ }
+
+.map {
+	width:1200px;
+	height:593px;
+	margin: 0 auto;
+	background:url(img/map.png);
+}
+
+.map + footer {
+	position: absolute;
+	bottom: 0;
+	left:50%;
+	margin-left:-600px;  
+}
+
+.search {
+	position: absolute;
+	width:570px;
+	height:48px;
+	left:50%;
+	margin-left:-285px;
+	bottom: 0;
+	background-color: rgb(119,99,87);
+	font-size: 21px;
+	text-transform:uppercase;
+	font-weight:bold;
+	text-decoration:none;
+	color:rgb(255,255,255);
+	text-align:center;
+	padding-top:14px ;
+}
+
+
+.buttons .button {
+	border: none;
+	color:rgb(255,255,255);
+	font-size: 21px;
+  	text-transform:uppercase;
+  	font-weight:bold;
+  	background-color:rgb(129,179,210);
+  	width:457px;
+	height:58px;
+	margin-top: 45px;
+	margin-left: 57px;
+}
+
+.main-navigation img {
+	height: 75px;
+	width: 138px;
+	position: absolute;
+	left: 50%;
+	margin-left: -69px;
+}
+
+.container {
+	width:1200px;
+	height:217px;
+	margin: 0 auto;
+	background: url(img/filter.png);
+}
+
+.infrastructure {
+	width:300px;
+	height:217px;
+	float: left;
+	line-height: 37px;
+}
+
+fieldset {
+	border: 0;
+	margin-top: 27px;
+}
+
+legend {
+	font-size: 16px;
+	text-transform:uppercase;
+	color:rgb(255,255,255);
+	margin-left: 55px;
+	font-weight:bold;
+}
+
+label {
+	font-size: 14px;
+	text-transform:uppercase;
+	color:rgb(255,255,255);
+	margin-left: 58px;
+}
+
+.house-types {
+	width:300px;
+	height:217px;
+	float: left;
+	line-height: 37px;
+}
+
+.house-types legend {
+	margin-left: 10px;
+}
+
+.house-types label {
+	margin-left: 13px;
+}
+
+.cost {
+	width:600px;
+	height:217px;
+	float: right;
+}
+
+.look {
+	width:1200px;
+	height:87px;
+	margin: 0 auto;
+	background-color: rgb(255,255,255);
+	border-bottom: 1px solid rgb(229,229,229);
+}
+
+.look p:nth-child(1) {
+	font-size: 21px;
+	text-transform:uppercase;
+  	font-weight:bold;
+  	margin-left: 70px;
+ }
+
+.look p {
+	font-size: 12px;
+	text-transform:uppercase;
+	display: inline-block;
+	margin-left: 45px;
+ }
+
+.look ul {
+	display:inline;
+}
+
+.look li {
+  	display:inline;
+}
+
+.look ul a {
+	color: black;
+  	text-decoration: none;
+  	font-size: 12px;
+  	text-transform:uppercase;
+}
+
+.choice {
+	float: right;
+}
+
+.items {
+	width:1200px;
+	margin: 0 auto;
+	background-color: rgb(255,255,255);
+}
+
+.item {
+	height: 151px;
+	border-bottom: 1px solid rgb(229,229,229);
+}
+
+.item .img {
+	width:135px;
+	height:90px;
+	float: left;
+	margin-left: 73px;
+	margin-top:30px;
+	padding-right: 30px;
+}
+.content {
+	display: inline-block;
+	width:390px;
+	float: left;
+	padding-left: 22px;
+}
+
+.content p {
+	padding-top: 2px;
+	font-size: 21px;
+  	text-transform:uppercase;
+  	margin-left: -23px;
+}
+
+.product_price {
+	margin-left: -24px;
+	font-size: 14px;
+  	text-transform:uppercase;
+}
+
+.details input {
+	border: none;
+	color:rgb(255,255,255);
+	font-size: 14px;
+  	text-transform:uppercase;
+  	font-weight:bold;
+  	background-color:rgb(129,179,210);
+  	width:110px;
+	height:27px;
+	margin-top: 2px;
+	margin-left: -24px;
+}
+
+.book input {
+	border: none;
+	color:rgb(255,255,255);
+	font-size: 14px;
+  	text-transform:uppercase;
+  	font-weight:bold;
+  	background-color:rgb(118,99,87);
+  	width:142px;
+	height:27px;
+	
+}
+
+.rating {
+	float: right;
+	margin-top:25px;
+	margin-right:73px;
+	text-align: right;
+}
+
+.stars {
+	display: table;
+	font-size: 14px;
+  	text-transform:uppercase;
+  	color: rgb(130,130,130);
+  	width:110px;
+  	height:27px;
+  	background: rgb(242,242,242);
+  	text-align: center;
+  	margin-top:46px;
+ }
+
+ .items .img:nth-child(2) {
+	width:135px;
+	height:90px;
+	margin-left: 73px;
+	margin-top:30px;
+	padding-right: 30px;
+	position: absolute;
+}
+
+.sedona-page {
+	width:1200px;
+	height:120px;
+	margin: 0 auto;
+	background-color: rgb(255,255,255);
+}
+
+.sedona-page .footer-hash {
+	font-size: 21px;
+	text-decoration: none;
+  	text-transform:uppercase;
+  	font-weight:bold;
+  	color: black;
+  	margin-left: 134px;
+  	margin-top: 40px;
+  	float: left;
+}
+
+.sedona-page .footer-social {
+  	float: left;
+  	margin-left: 240px;
+  	margin-top: 50px;
+}
+
+.sedona-page .footer-copyright {
+	float: left;
+	margin-left: 748px;
+  	margin-top: -40px;
+ }
+
+ .sedona-page .footer-copyright p {
+ 	float: left;
+ }
+
+
+
+
+
+
+
+
+	
+
+
+

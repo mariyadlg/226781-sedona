@@ -1,10 +1,15 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans:400,700');
+
+* {
+	font-family: 'PT Sans', sans-serif;
+}
+
 body {
 	font-size: 18px;
 	line-height: 20px;
 	color: rgb(0,0,0);
 	font-weight: normal;
-	font-family: "Times New Roman", Times, serif;
-	background: #000000 url("preview/sedona-index.jpg") no-repeat 50% 3px;
+	background: #000000 url("preview/sedona-hotels.jpg") no-repeat 50% 3px;
   	background-size: 1280px auto;
   	min-width: 1280px;
   	height: 2762px;
@@ -21,12 +26,42 @@ body {
 	left: 50%;
 	margin-left: -69px;
 }
+
 .main-navigation {
 	height: 59px;
   	width: 1200px;
   	margin: 0 auto;
  	outline: 3px solid #dff;
+}
 
+.main-navigation ul {
+  	margin: 0;
+  	padding: 0;
+	list-style: none;
+  	font-size: 0;
+}
+
+.main-navigation li {
+  	display: inline-block;
+  	height: 56px;
+  	width: 239px;
+  	outline: 3px solid #6dd;
+  	text-align: center;
+  	line-height: 14px;
+}
+
+.main-navigation ul a {
+  	display: block;
+  	padding: 25px 20px;
+	color: black;
+  	text-decoration: none;
+  	font-size: 14px;
+  	text-transform:uppercase;
+  	font-weight:bold;
+}
+
+ul li:nth-child(3) {
+	margin-left: 244px; 
 }
 
 .container-wrap {
@@ -36,9 +71,9 @@ body {
  	outline: 3px solid #6ff;
  	text-align:center;
  	position: relative;
+}
 
- }
-  .container-wrap img:nth-child(1) {
+.container-wrap img:nth-child(1) {
  	height: 45px;
 	width: 188px;
 	outline: 3px solid #6dd;
@@ -60,8 +95,7 @@ body {
 	top: 133px;
 	left: 600px;
 	margin-left:-87px;
-
- }
+}
 
 .container-wrap img:nth-child(3) {
  	height: 78px;
@@ -132,7 +166,6 @@ h1 {
 	width: 800px;
 	height: 259px;
 	outline: 3px solid #fd4;
-
 }
 
 .city-foto {
@@ -212,6 +245,7 @@ h1 {
 	margin-right: 70px;
 	float: right;
 }
+
 .features:after {
   content: "";
   clear: both;
@@ -222,6 +256,17 @@ h1 {
 	height: 293px;
 	outline: 3px dotted #e44;
 	margin: 0 auto;
+	position: relative;
+}
+
+.form-area form {
+	position: absolute;
+	top:100%;
+	background-color:rgba(788,111,33,.2);
+	width: 570px;
+	height:395px;
+	left: 50%;
+	margin-left: -285px;
 }
 
 h2 {
@@ -243,7 +288,6 @@ h2 {
   clear: both;
 }
 
-
 footer {
 	width:1200px;
 	height:120px;
@@ -251,6 +295,33 @@ footer {
 	margin: 0 auto;
 	background-color:rgba(171,111,33,.2);
 }
+
+.footer-hash {
+	font-size: 21px;
+	text-decoration: none;
+  	text-transform:uppercase;
+  	font-weight:bold;
+  	color: black;
+  	margin-left: 134px;
+  	margin-top: 50px;
+  	float: left;
+}
+
+.footer-social {
+  	float: left;
+  	margin-left: 200px;
+  	margin-top: 50px;
+}
+
+.footer-copyright {
+	float: left;
+	margin-left: 220px;
+  	margin-top: 37px;
+ }
+
+ .footer-copyright p {
+ 	float: left;
+ }
 
 .map {
 	width:1200px;
@@ -266,89 +337,16 @@ footer {
 	margin-left:-600px;  
 }
 
-
-
-
-
-	
-/*.features div:nth-child(2) img {
-	float: right;
-}
-
-.features div:nth-child(2) b:nth-child(1) {
-	
-}
-
-.features div:nth-child(2) p:nth-child(2) {
-	margin-top: 90px;
-	padding-left: 180px;
-}
-
-.features div:nth-child(2) p:nth-child(3) {
-	margin: 10px;
-	padding-top: -15px;
-	padding-left: 23px;
-}
-
-.features div:nth-child(3) {
-	height: 330px;
-	width: 402px;
-	background-color:rgba(11,194,33,.2);
-	margin: 0 auto;
-	float: left;
-}
-
-.features div:nth-child(4) {
-	height: 330px;
-	width: 402px;
-	background-color:rgba(242,194,11,.2);
-	margin: 0 auto;
-	float: right;
-}
-
-.features div:nth-child(5) {
-	height: 330px;
-	width: 402px;
-	background-color:rgba(242,666,11,.2);
-	margin: 0 auto;
-}
-
-.features div:nth-child(5):after {
-	content: "";
-	clear: both;
-}
-
-.features div:nth-child(6) {
-	padding: 3px;
-	width: 1200px;
-	height: 253px;
-	background-color:rgba(11,111,33,.2);
-}
-
-.features div:nth-child(6) img {
-	float: left;
-}
-
-.features div:nth-child(7)  {
-	height: 330px;
-	width: 402px;
-	background-color:rgba(11,194,33,.2);
-	margin: 0 auto;
-}
-
-.features div:nth-child(8)  {
-	height: 330px;
-	width: 402px;
-	background-color:rgba(112,194,23,.2);
-	margin: 0 auto;
+.search {
+	position: absolute;
+	width:570px;
+	height:85px;
+	outline: 3px dotted #c99;
+	background-color:rgba(133,177,31,.4);
+	left:50%;
+	margin-left:-285px;
+	bottom: 0;
 }
 
 
-.features div:nth-child(9)  {
-	height: 330px;
-	width: 402px;
-	background-color:rgba(111,195,33,.2);
-	margin: 0 auto;
 
-}
-*/
