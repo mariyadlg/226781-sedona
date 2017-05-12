@@ -27,20 +27,21 @@
               	</nav>
     		</header>
     		<main class="container">
-                <form action="" method="get">
+                <form action="/send-house-data" method="get">
                 	<div class="infrastructure">
                         <fieldset>
       						<legend>Инфраструктура:</legend>
-      						<label for="infrastructure1"><input type="checkbox" name="infrastructure1" value="i1"checked>Бассейн</label><br>
-                       	 	<label for="infrastructure2"><input type="checkbox" name="infrastructure2" value="i2">Парковка</label><br><label for="infrastructure3"><input type="checkbox" name="infrastructure3" value="i3">Wi-Fi</label> 
+      						<label for="infrastructure1"><input type="checkbox" id="infrastructure1" name="infrastructure1" value="i1" checked>Бассейн</label><br>
+                       	 	<label for="infrastructure2"><input type="checkbox" id="infrastructure2" name="infrastructure2" value="i2">Парковка</label><br>
+                            <label for="infrastructure3"><input type="checkbox" id="infrastructure3" name="infrastructure3" value="i3">Wi-Fi</label> 
                         </fieldset>
     				</div>
          			<div class="house-types">
          				<fieldset>
          					<legend>Тип жилья:</legend>
-         					<label for="house1"><input type="checkbox" name="house1" value="h1" checked>Гостиница</label><br>
-                        	<label for="house2"><input type="checkbox" name="house2" value="h2" checked>Мотель</label><br>
-                        	<label for="house3"><input type="checkbox" name="house3" value="h3" checked>Апартаменты</label> 
+         					<label for="house1"><input type="checkbox" id="house1" name="house1" value="h1" checked>Гостиница</label><br>
+                        	<label for="house2"><input type="checkbox" id="house2" name="house2" value="h2" checked>Мотель</label><br>
+                        	<label for="house3"><input type="checkbox" id="house3" name="house3" value="h3" checked>Апартаменты</label> 
                         </fieldset>
     				</div>
          			<div class="cost">
@@ -76,13 +77,13 @@
     		<section class="items">
                 <div class="item">
                     <div class="img">
-        				<a href=""><img src="img/spa.png" width="135" height="90" alt="Desert quail inn""></a>
+        				<a href=""><img src="img/spa.png" width="135" height="90" alt="Desert quail inn"></a>
         			</div>
                     <div class="content">
                         <p><b>Amara resort &amp; spa</b></p>
                         <span class="product_price">Гостиница от 4000 р.</span><br>
-                        <a class="details"><input type="submit" value="Подробнее"></a>
-                        <a class="book"><input type="submit" value="Забронировать"></a>
+                        <span class="details"><input type="submit" value="Подробнее"></span>
+                        <span class="book"><input type="submit" value="Забронировать"></span>
                     </div>
                     <div class="rating">
                         <img src="img/stars4.png" width="89" height="17" alt="4 Stars"> 
@@ -96,8 +97,8 @@
                     <div class="content">
                         <p><b>Desert quail inn</b></p>
                         <span class="product_price">Мотель от 2000 р.</span><br>
-                        <a class="details"><input type="submit" value="Подробнее"></a>
-                        <a class="book"><input type="submit" value="Забронировать"></a>
+                        <span class="details"><input type="submit" value="Подробнее"></span>
+                        <span class="book"><input type="submit" value="Забронировать"></span>
                     </div>
                     <div class="rating">
                         <img src="img/stars3.png" width="65" height="17" alt="3 Stars">
@@ -111,8 +112,8 @@
     			    <div class="content">
     				    <p><b>Villas at poco diablo</b></p>
     				    <span class="product_price">Апартаменты от 4000 р.</span><br>
-    				    <a class="details"><input type="submit" value="Подробнее"></a>
-    				    <a class="book"><input type="submit" value="Забронировать"></a>
+    				    <span class="details"><input type="submit" value="Подробнее"></span>
+    				    <span class="book"><input type="submit" value="Забронировать"></span>
     			    </div>
     			    <div class="rating">
     			        <img src="img/stars.png" width="42" height="17" alt="2 Stars">
