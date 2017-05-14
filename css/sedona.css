@@ -7,13 +7,16 @@
 body {
 	color: rgb(0,0,0);
   	padding: 0;
+  	margin: 0;
   	position: relative;
+  	background-color: rgb(242,242,242);
 }
 
 .w-wrapper {
 	width: 1200px;
 	margin: 0 auto;
 	border: 1px solid #ccc;
+	box-shadow: 0px 0px 18px 0px rgba(180, 180, 180, 0.92);
 }
 
 .index-logo {
@@ -45,11 +48,10 @@ body {
   	width: 239px;
   	text-align: center;
   	line-height: 14px;
+  	padding-top: 22px;
 }
 
 .main-navigation ul a {
-  	display: block;
-  	padding: 25px 20px;
 	color: black;
   	text-decoration: none;
   	font-size: 14px;
@@ -518,6 +520,7 @@ footer {
 	height:120px;
 	margin: 0 auto;
 	background-color: rgba(255,255,255,.9);
+	position: relative;
 }
 
 .footer-hash {
@@ -526,7 +529,7 @@ footer {
   	font-weight:bold;
   	color: black;
   	position: absolute;
-    top: 42px;
+    top: 41px;
     left: 133px;
 }
 
@@ -536,31 +539,25 @@ footer {
 }
 
 .footer-social {
-  	float: left;
-  	margin-left: 200px;
-  	margin-top: 50px;
   	position: absolute;
+  	top: 34px;
+    left: 526px;
 }
 
-.footer-social img:nth-child(1) {
-	width:17px;
-	height:15px;
-	background-color: rgb(129,179,210);
-}
 .footer-copyright {
+	position: absolute;
+	top: 32px;
+    left: 900px;
+    width: 200px;
+}
+
+.footer-copyright p {
 	float: left;
-	margin-left: 220px;
-  	margin-top: 37px;
- }
-
- .footer-copyright p {
- 	float: left;
  	margin-right: 10px;
- 	margin-left: 152px;
  	margin-top: 12px;
- }
+}
 
- .footer-copyright img {
+.footer-copyright img {
   	margin-top: 7px;
  }
 
@@ -804,40 +801,29 @@ label {
 	padding-right: 30px;
 	position: absolute;
 }
-
-.sedona-page {
-	width:1200px;
-	height:120px;
-	margin: 0 auto;
-	background-color: rgb(255,255,255);
-}
-
-.sedona-page .footer-hash {
-	font-size: 21px;
-	text-decoration: none;
-  	text-transform:uppercase;
-  	font-weight:bold;
-  	color: black;
-  	margin-left: 134px;
-  	margin-top: 40px;
-  	float: left;
-}
-
-.sedona-page .footer-social {
-  	float: left;
-  	margin-left: 240px;
-  	margin-top: 50px;
-}
-
-.sedona-page .footer-copyright {
-	float: left;
-	margin-left: 748px;
-  	margin-top: -40px;
+ .social-btn {
+ 	width:46px;
+ 	height:48px;
+ 	background-color: rgb(129,179,210);
+ 	float:left;
  }
 
- .sedona-page .footer-copyright p {
- 	float: left;
- }
+.social-btn + .social-btn {
+	margin-left: 8px;
+}
+
+.social-btn img {
+	margin-top: 15px;
+    margin-left: 14px;
+}
+
+.social-btn-fb img {
+	margin-top: 12px;
+    margin-left: 17px;
+}
+
+
+  
 
 
 
